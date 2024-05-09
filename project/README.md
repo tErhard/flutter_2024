@@ -15,50 +15,50 @@
 </p>
 
 
-## Overview
+## оглад
 
-This Flutter application serves as a Body Mass Index (BMI) calculator, allowing users to calculate their BMI based on their height and weight. Additionally, it incorporates a feature for users to upload photos, enabling them to visually track their body transformation progress. The app includes comprehensive authentication functionalities such as email and mobile login, sign-up option, and password recovery.
+Ця програма Flutter служить як калькулятор індексу маси тіла (ІМТ), дозволяючи користувачам обчислити свій ІМТ на основі їх зросту і ваги. Крім того, вона включає функцію для завантаження фотографій, що дозволяє візуально відстежувати прогрес своєї трансформації тіла. Додаток має комплексні функціональні можливості аутентифікації, такі як увійти за допомогою електронної пошти та мобільного номера, опція реєстрації та відновлення пароля.
 
-## Features
+## Особливості
 
-1. **BMI Calculation**: Users can input their height and weight to calculate their BMI instantly.
+Обчислення ІМТ: Користувачі можуть ввести свій зріст та вагу для миттєвого обчислення свого ІМТ.
 
-2. **Photo Upload**: Users can upload photos to visually track their body transformation journey. 
+Завантаження фотографій: Користувачі можуть завантажувати фотографії для візуального відстеження свого шляху трансформації тіла.
 
-3. **Authentication**:
-   - **Email Login**: Users can log in using their email address and password.
-   - **Mobile Login**: Users can log in using their mobile number and password.
-   - **Sign-Up Option**: New users can create an account with their email address or mobile number.
-   - **Forgot Password**: Users can reset their password through the app.
+Аутентифікація:
 
-4. **User Profiles**: Each user has a personalized profile where they can view their BMI history and uploaded photos.
+Увійти за допомогою електронної пошти: Користувачі можуть увійти, використовуючи свою електронну адресу та пароль.
+Увійти за допомогою мобільного номера: Користувачі можуть увійти, використовуючи свій мобільний номер та пароль.
+Опція реєстрації: Нові користувачі можуть створити обліковий запис за допомогою своєї електронної адреси або мобільного номера.
+Забули пароль: Користувачі можуть скинути свій пароль через додаток.
+Профілі користувачів: Кожен користувач має персоналізований профіль, де вони можуть переглядати історію свого ІМТ та завантажені фотографії.
 
 
-## How to Use
+## Як користуватися
 
-1. **Installation**:
-   - Ensure you have Flutter installed on your system.
-   - Clone or download the project from the repository.
-   - Navigate to the project directory and run `flutter pub get` to install dependencies.
+Установка:
 
-2. **Run the App**:
-   - Connect your device or use an emulator.
-   - Run the command `flutter run` in the project directory.
+Переконайтеся, що у вас встановлений Flutter на вашій системі.
+Клонуйте або завантажте проект з репозиторію.
+Перейдіть до каталогу проекту та виконайте flutter pub get для встановлення залежностей.
+Запуск додатка:
 
-3. **Authentication**:
-   - Create a new account using your email address or mobile number.
-   - Log in using your credentials or use the forgot password option if needed.
+Підключіть ваш пристрій або використовуйте емулятор.
+Виконайте команду flutter run в каталозі проекту.
+Аутентифікація:
 
-4. **BMI Calculation**:
-   - Input your height and weight to calculate your BMI.
-   - View the BMI category and interpretation.
+Створіть новий обліковий запис за допомогою своєї електронної адреси або мобільного номера.
+Увійдіть, використовуючи свої облікові дані, або скористайтеся опцією забутого пароля, якщо потрібно.
+Обчислення ІМТ:
 
-5. **Photo Upload**:
-   - Navigate to the photo upload section.
-   - Choose a photo from your device to upload.
+Введіть свій зріст та вагу для обчислення свого ІМТ.
+Перегляньте категорію та інтерпретацію ІМТ.
+Завантаження фотографій:
 
-## Future Enhancements
+Перейдіть до розділу завантаження фотографій.
+Виберіть фотографію з вашого пристрою для завантаження.
 
-- Implement social media sharing options for users to share their BMI results and body transformation progress.
-- Include a diet and exercise tracker to help users maintain a healthy lifestyle.
-- Integrate with wearable devices to automatically track fitness data.
+## Майбутні покращення
+Впровадити опції спільних мереж для користувачів, щоб вони могли ділитися результатами свого ІМТ та прогресом тіла.
+Включити трекер дієти та фізичних вправ, щоб допомогти користувачам підтримувати здоровий спосіб життя.
+Інтегрувати з носимими пристроями для автоматичного відстеження даних фітнесу.
